@@ -6,7 +6,7 @@
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=320, height=device-height, target-densitydpi=medium-dpi" />
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <title>Museum of Modern Browsers</title>
 
     <style>
@@ -38,12 +38,12 @@
         width: 100%;
     }
 
-	.carousel-caption {
+	.carousel-caption h1{
 		z-index: 10;
 		text-shadow: 0 1px 4px rgba(0, 0, 0, 0.85);
 	}
 
-    .carousel-caption p {
+    .carousel-caption p:first-child, p:nth-child(2) {
         margin-bottom: 20px;
         font-size: 20px;
         line-height: 1.8;
@@ -99,11 +99,11 @@
                 min-height: 300px;
             }
 
-			.carousel-caption {
+			.carousel-caption h1{
 				text-shadow: 0 1px 4px rgba(0, 0, 0, 0.85);
 			}
 
-            .carousel-caption p {
+            .carousel-caption p:first-child, p:nth-child(2) {
                 font-size: 16px;
                 line-height: 1.4;
             }
@@ -369,7 +369,7 @@
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script>
     $(document).ready(function() {
         $("#navbarSupportedContent .dropdown-menu a").click(function() {
